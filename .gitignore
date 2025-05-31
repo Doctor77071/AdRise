@@ -119,6 +119,11 @@ app.*.symbols
 !/dev/ci/**/Gemfile.lock
 .firebase/
 firebase-debug.log
+# انقر على ملف .gitignore → Edit (أيقونة القلم)
+
+# أضف هذه الأسطر:
+.firebase/
+firebase-debug.log
 firebase.json
 .env
 *.env
